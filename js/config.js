@@ -66,7 +66,7 @@ function notifyServer() {
 // Function to check version and perform actions
 function checkVersionAndNotify() {
     // Fetch the version.txt file
-    fetch('https://codetestgroup.github.io/opensource-tools/config/version.txt')
+    fetch('https://codetestgroup.github.io/opensource-tools-assets/config/version.txt')
         .then(response => response.text())
         .then(text => {
             // Extract the current version from the fetched text
