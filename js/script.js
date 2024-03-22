@@ -25,4 +25,10 @@ function loadToolIframe(toolName) {
     // Append the iframe to the main element
     mainElement.appendChild(iframe);
 }
-
+$(document).ready(function() {
+            // Fetch the sidebar content
+            $.get('https://codetestgroup.github.io/static/sidebar/sidebar.html', function(data) {
+                // Inject the fetched HTML into the sidebar element
+                $('#sidebar').html(data);
+            });
+        });
