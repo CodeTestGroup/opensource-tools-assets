@@ -1,4 +1,4 @@
-var Version = "0.0";
+var Version = "1.1";
 
 // Fetch the config.txt file
 fetch('config.txt')
