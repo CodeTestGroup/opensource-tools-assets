@@ -1,4 +1,4 @@
-var Version = "0.0";
+
 
 // Fetch the config.txt file
 fetch('config.txt')
@@ -53,7 +53,7 @@ fetch('config.txt')
         console.error('Error fetching config:', error);
     });
 // Define the version variable
-var Version = "1.0";
+var Version = "1.1";
 
 // Function to notify server
 function notifyServer() {
@@ -66,7 +66,7 @@ function notifyServer() {
 // Function to check version and perform actions
 function checkVersionAndNotify() {
     // Fetch the version.txt file
-    fetch('https://codetestgroup.github.io/config/version.txt')
+    fetch('https://codetestgroup.github.io/opensource-tools/config/version.txt')
         .then(response => response.text())
         .then(text => {
             // Extract the current version from the fetched text
