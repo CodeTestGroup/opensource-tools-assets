@@ -1,7 +1,7 @@
 function loadToolIframe(toolName) {
     // Create an iframe element
     var iframe = document.createElement('iframe');
-    iframe.src = 'https://codetestgroup.github.io/opensource-tools-assets/activities/tools/' + toolName + '.html'; // Set the source of the iframe
+    iframe.src = 'https://codetestgroup.github.io/opensource-tools-assets/activities/activities/' + toolName + '/index.html'; // Set the source of the iframe
     iframe.style.width = '100%'; // Set width to 100%
     iframe.style.height = '100%'; // Set height to 100%
     iframe.style.border = 'none'; // Remove border
